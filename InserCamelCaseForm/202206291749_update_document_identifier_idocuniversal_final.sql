@@ -29,7 +29,7 @@ END $$
 
 DELIMITER ;
 
-UPDATE `schema`.`table` SET `schema`.`table`.`column`= camel_case(documentname);
+UPDATE `schema`.`table` SET `schema`.`table`.`column`= camel_case(name);
 UPDATE `schema`.`table` SET `schema`.`table`.`column`= camel_case(name);
 
 -- rollback UPDATE `schema`.`table` SET `schema`.`table`.`column`= "";
